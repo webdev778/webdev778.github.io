@@ -1,0 +1,24 @@
+
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "Portofolio website to demonstrate past projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdev778/portofolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "node"
+  ],
+  "author": "webdev778",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdev778/portofolio/issues"
+  },
+  "homepage": "https://github.com/webdev778/portofolio#readme",
+}
