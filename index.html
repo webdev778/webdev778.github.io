@@ -16,10 +16,10 @@
   <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 
   <!-- HOSTED -->
-  <script src="scripts/prefixfree.min.js"></script>
-  <script src="scripts/jquery.min.js"></script>
-  <script src="scripts/jquery.mixitup.min.js"></script>
-  <script src="scripts/jquery.waypoints.min.js"></script>
+  <script src="cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+  <script src="cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
 
   <!-- LOCAL -->
   <script src="scripts/pt.min.js"></script>
@@ -451,16 +451,16 @@
 
 <!-- Experience -->
 <section id="blog">
-  <header id="main-header">
+  <!-- <header id="main-header">
     <div class="container">
       <h1><i class="fas fa-brain"></i>Ricardo Bonfime</h1>
       <h3><i class="fas fa-user"></i> Senior Ruby on Rails developer</h3>
       <p class="mt-20">Highly capable web developer specializing in full stack development with 8+ years of hands-on experience as a full-stack  developer handling both front-end and back-end programming for best-in-class applications. Adept at driving front-end and back-end integration to ensure seamless, scalable and reliable application. I enjoy building projects from scratch to the finish through the full software development life cycle, with the agile methodology</p>
       <p class="mt-20">Now I'm looking for challenges to dedicate my skills and also looking for a long-term partnership with an honest and kind  person. I'll do my best and will always come up with creative and well-oriented solutions for success. Hope to work with you</p>
     </div>
-  </header>
+  </header> -->
 
-  <section id="timeline">
+  <section id="timeline" class="timeline">
       <h1 class="align-center cs-title">Experience</h1>
     <ul>
       <li>
@@ -548,18 +548,9 @@
 
     </ul>
   </section>
-  <section id="timeline">
+  <section id="Education" class="timeline">
       <h1 class="align-center cs-title">Education</h1>
     <ul>
-      <li>
-        <div>
-          <h3>
-            <i class="fas fa-chevron-right"></i> 2019-03 - 2019-09 : Senior Ruby on Rails Developer
-          </h3>
-          <p>Invoice Management Platform. Universal Login Process Across Multi Different Domains Using OAuth2. 3D Secure Card    Payment using Stripe  Connect</p>
-        </div>
-      </li>
-
       <li>
         <div>
           <h3>
@@ -671,7 +662,7 @@
 
 <!-- for experience section -->
 <script type="text/javascript">
-  const items = document.querySelectorAll('#timeline li');
+  const items = document.querySelectorAll('.timeline li');
   const isInViewport = el => {
     const rect = el.getBoundingClientRect();
     return (
