@@ -1064,3 +1064,7 @@ section#Education p{color: #fff;}
 section#Education ul li:nth-child(odd) div:before{border-color: transparent #04C2C9 transparent transparent ;}
 section#Education ul li:nth-child(even) div:before{border-color: transparent transparent transparent #04C2C9;}
 section#timeline {padding-top: 30px;}
+
+.me {
+  visibility: hidden;
+}
