@@ -17,7 +17,7 @@ $(document).ready(function(){
       title: 'Peatio',
       tag: 'Peatio',
       detail: 'Peatio is an open-source cryptocurrency exchange trading platform built with Ruby on Rails + Coffeescript',
-      link: '#'
+      link: 'https://www.chulwonexchange.com/'
     },
     elmhurst: {
       title: 'Elmhurst',
