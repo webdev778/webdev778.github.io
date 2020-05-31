@@ -5,44 +5,48 @@ $(document).ready(function(){
     africoin: {
       title: 'Africoin',
       tag: 'Africoin',
-      detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ',
-      link: 'http://www.roambi.com'
+      detail: 'Africoin is an e-commerce platform providing electronic voucher solution using a crypto token for between manufacturers and retailers and customers. ',
+      link: '#'
     },
     blocktoken: {
       title: 'Blocktoken',
       tag: 'Blocktoken',
-      detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+      detail: 'Blocktoken is a smart contract and token platform, fully white-labeled that user can easily create/manage/deploy ERC20 token onto mainnet/testnet with user interface quickly',
     },
     peatio: {
       title: 'Peatio',
       tag: 'Peatio',
-      detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+      detail: 'Peatio is an open-source cryptocurrency exchange trading platform built with Ruby on Rails + Coffeescript',
       link: '#'
     },
     elmhurst: {
       title: 'Elmhurst',
       tag: 'Elmhurst',
-      detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+      detail: 'Elmhurst is a bank platform that provides financial services exclusively to nonprofits and their affiliates. ',
+      link: 'https://elmhur.st/'
     },
     papermache: {
       title: 'Papermache',
       tag: 'Papermache',
-      detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+      detail: 'Papermache is a network of community platform that user can easily get feedback from the commnity',
+      link: 'https://papermache.fyi/'
     },
     shivyog: {
       title: 'Shivyog',
       tag: 'Shivyog',
-      detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+      detail: 'Upgraded to v2 for better UI/UX with a map-based ui, the stack is Ruby on Rails + VueJS',
+      link: 'https://shivyog.com/'
     },
     stillpointspaces: {
       title: 'Stillpointspaces',
       tag: 'Stillpointspaces',
-      detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+      detail: 'A Invoice Management Platform, the stack was Ruby on Rails for the backend, I\'ve built new invoice platform with NodeJS/Express + React and built Restful API with RoR Grape to connect with nodejs',
+      link: 'https://www.stillpointspaces.com/'
     },
     vertex: {
       title: 'Vertex',
       tag: 'Vertex',
-      detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+      detail: 'An Asset Management Platform, which user is able to easily search pdf files with their content on their mobile. Dashboard + Mobile App, the stack was Ruby on Rails for the backend, the frontend was Angular + JQuery',
     }
   };
 
