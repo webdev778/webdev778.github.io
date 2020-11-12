@@ -1020,7 +1020,7 @@ section#Experience {background: #425b84;width: 100%;padding-top: 0;}
 .timeline ul li:nth-child(even) div {left: -495px;transform: translate(-200px, 0);}
 section.timeline {padding: 0;background: #425b84;width: 100%;height: auto;overflow: hidden;}
 .timeline ul li:after {
-  content: '';position: absolute;left: 50%;bottom: 0;width: 25px;height: 25px;background: inherit;border-radius: 50%;transform: translateX(-50%); transition: background 0.5s ease-in-out;counter-increment: li; content: counter(li);text-align: center;line-height: 25px;color: #fff; 
+  content: '';position: absolute;left: 50%;bottom: 0;width: 25px;height: 25px;background: inherit;border-radius: 50%;transform: translateX(-50%); transition: background 0.5s ease-in-out;counter-increment: li; content: counter(li);text-align: center;line-height: 25px;color: #fff;
 }
 .timeline div:before {content:'';position:absolute;bottom:5px;width:0;height:0;border-style:solid;}
 .timeline ul li:nth-child(odd) div:before {left: -15px;border-width: 8px 16px 8px 0;border-color: transparent #5b7bb4 transparent transparent;}
@@ -1066,5 +1066,5 @@ section#Education ul li:nth-child(even) div:before{border-color: transparent tra
 section#timeline {padding-top: 30px;}
 
 .me {
-  visibility: hidden;
+  /* visibility: hidden; */
 }
